@@ -20,7 +20,7 @@ Geography required: yes
 * [Pittsburgh Building Permtis](https://data.wprdc.org/dataset/city-of-pittsburgh-building-permits/resource/95d69895-e58d-44de-a370-fec6ad2b332e)
 
 #### Required Fields
-| Field 			| Type 		| Notes																	|
+| Field 			| Type 		| Description																	|
 |-------------------|-----------|-----------------------------------------------------------------------|
 | `permit_id`      	| String	| Unique id, format likely to differ between governing body	  			|
 | `permit_group`   	| String	| 'Building', 'Zoning', etc, (pgh: record_group, bldwn: Category)		|
@@ -30,7 +30,7 @@ Geography required: yes
 
 
 #### Optional Common Fields
-| Field 			| Type 		| Notes																	|
+| Field 			| Type 		| Description																	|
 |-------------------|-----------|-----------------------------------------------------------------------|
 | `intake_date`    	| Date		| Date when permit request rcv'd by issuer								|
 | `permit_category`	| String	| More detail than `permit_type` and `permit_subtype`					|
@@ -47,7 +47,7 @@ Geography required: yes
 * [Pittsburgh PLI Violations](https://data.wprdc.org/dataset/pittsburgh-pli-violations-report/resource/4e5374be-1a88-47f7-afee-6a79317019b4)
 
 #### Required Fields
-| Field 			| Type 		| Notes																	|
+| Field 			| Type 		| Description																	|
 |-------------------|-----------|-----------------------------------------------------------------------|
 | `case_no`      	| String	| unique id, format likely to differ between governing body	  			|
 | `violation`    	| String	| Description/ type of violation										|
@@ -56,7 +56,7 @@ Geography required: yes
 
 
 #### Optional Common Fields
-| Field 				| Type 		| Notes																	|
+| Field 				| Type 		| Description																	|
 |-----------------------|-----------|-----------------------------------------------------------------------|
 | `inspection_result`   | String	| unique id, format likely to differ between governing body	  			|
 | `inspection_date`    	| Date		| Date of inspection when violation was issued							|
@@ -69,7 +69,7 @@ Geography required: yes
 ## Parcel
 
 #### Fields
-| Field 		| Type 		| Notes																	|
+| Field 		| Type 		| Description																	|
 |---------------|-----------|-----------------------------------------------------------------------|
 | `parcel_id`   | String	| Allegheny County 16-digit Parcel ID 									|
 | `street`    	| String	| Street number and name												|
